@@ -1,0 +1,20 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+.Chase {
+    display: flex;
+    background-color: #8FB4BA;
+    
+}
+
+.Chase img {
+    display: flex;
+    border: 5px solid white;
+    border-radius: 25px;
+    width: 300px;
+    
+}
