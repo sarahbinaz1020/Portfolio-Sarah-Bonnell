@@ -1,20 +1,76 @@
+:root {
+    --lightblue: #B7E7EE;
+    --bluegray: #546A6E;
+    --white: #fff;
+
+}
+
+/*entire page*/
 * {
     font-family: Arial, Helvetica, sans-serif;
     
 }
-
-
-
+/*banner section*/
 .Chase {
     display: flex;
-    background-color: #8FB4BA;
-    
+    background-color: var(--lightblue);
+    align-items: space-evenly;
+    color: white;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin: 0 0;
+    border-top: var(--bluegray);
 }
-
+/*Picture of my dog and me*/
 .Chase img {
-    display: flex;
-    border: 5px solid white;
+    border: 5px solid var(--white);
     border-radius: 25px;
     width: 300px;
-    
+    margin: 10px;
+    }
+/*Header name*/
+.name {
+    font-style: normal;
+    font-size: 200%;
+    font-family: "Dancing Script", sans serif;
+
+}
+/*Nav Bar section*/
+.Juniper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+/*Image between banner and main content*/
+.card img {
+    width: 100%;
+    height: 25px;
+    border-top: 4px solid var(--bluegray);
+    border-bottom: var(--bluegray);
+}
+
+/*Main section titles*/
+.About-Me,
+.Portfolio,
+.Contact {
+    color: var(--bluegray);
+}
+/*About Me Section*/
+.card1 {
+    display: flex;
+    align-content: stretch;
+    flex-flow: row wrap;
+}
+
+.card1 p {
+    align-items: wrap;
+}
+/*Portfolio Section*/
+.card2 {
+    display: flex;
+    align-content: stretch;
+    flex-flow: row wrap;
+}
 }
