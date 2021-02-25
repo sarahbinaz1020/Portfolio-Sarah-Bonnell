@@ -146,12 +146,22 @@ a:hover {
     padding-left: 25px;
 }
 
-
-
 /* The banner is in position sticky, as I want it to stay at the top of the page once I have more content and the user scrolls down. This has created it to not respond to the below command, and I've tried a few methods from online as tips, but none seemed to work.
+
+I also am unable to get the photos to wrap within the box when the width of the window shrinks
  */
-@media screen and (min-width 480px) {
-    .body {
-        flex-direction: column;
+ 
+@media screen and (max-width 768px) {
+    body {
+        width: 33.33%;
+    }
+    .Work-Images {
+        width: 33.33%;
+    }
+}
+
+ @media screen and (max-width 480px) {
+    body {
+        width: 50%;
     }
 }
