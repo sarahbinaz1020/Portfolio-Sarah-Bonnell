@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Sarah Bonnell</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css"
 
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
 
 </head>
 <body>
@@ -15,43 +16,53 @@
         <img src="./images/Run with Chase.jpg" alt="Selfie with my dog"/>
 
         <!--This is the header of the page-->
-         <header class="name">
-            <h1>Sarah Bonnell</h1>
+         <header >
+            <h1 class="name">Sarah Bonnell</h1>
         </header>
 
          <!--This is the nav bar-->
             <nav class="Juniper">
             <a href="#About-Me">About Me</a>
-            <a href="Portfolio">Portfolio</a>
+            <a href="#Portfolio">Portfolio</a>
             <a href="#Contact">Contact</a>
             </nav> 
     </section>
 
+    <!--This is the main content of the page-->
     <section>
-<!--This is the main content of the page-->
         <main class="card">
-            <img src="images/sam-moqadam-s8wknXs_O7U-unsplash.jpg" alt="border photo"/>
+            <img class="Divider" src="images/sam-moqadam-s8wknXs_O7U-unsplash.jpg" alt="border photo"/>
 
-            <!--This is the About Me section-->
-             <div class="card1">
-                <h2 class="About-Me">About Me</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, voluptatem! Inventore architecto, perferendis illum impedit animi dolorem voluptatibus, voluptatum ipsum qui harum aspernatur excepturi ea perspiciatis nisi est error accusantium?
-                 </p>
+            <div id="main-content">
+                <div class="card1">
+                    <h2 id="About-Me" style="flex-grow: 1">About Me</h2>
+                    <p style="flex-grow: 8">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, voluptatem! Inventore architecto, perferendis illum impedit animi dolorem voluptatibus, voluptatum ipsum qui harum aspernatur excepturi ea perspiciatis nisi est error accusantium?
+                    </p>
+                </div>
             </div>
             <br>
             <!--This is the Portfolio section-->
             <div class="card2">
-                    <h2 class="Portfolio">Portfolio</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, aspernatur iure porro sit voluptas temporibus itaque sapiente ad perspiciatis voluptatum ducimus doloremque doloribus minima quas. Quod minima odio vel aliquid!
-                </p>
+                    <h2 id="Portfolio">Portfolio</h2>
+                    <div class="Work-Images"> 
+                        <img id="Photo1" src="https://placekitten.com/200/140" alt="Photo placeholder 1"/>
+
+                        <img id="Photo2"src="https://placekitten.com/200/139" alt="Photo placeholder 2"/>
+
+                        <img id="Photo3"src="https://placekitten.com/200/287" alt="Photo placeholder 3" />
+                    </div>
             </div>
             <br>
 
             <!--This is the Contact Me section-->
-            <h2 class="Contact">Contact Me</h2>
-            <p <em>Email: </em><a href="mailto:sarahbinaz1020@gmail.com">sarahbinaz1020@gmail.com</a></p>
+            <div class="card3">
+                <h2 id="Contact">Contact Me</h2>
+                <p <em>Email: </em><a href="mailto:sarahbinaz1020@gmail.com">sarahbinaz1020@gmail.com</a></p>
             <br>
-            <p <em>Mobile: </em><a href="tel:0116026194644">(602) 619-4644</a>
+                <p <em>Mobile: </em><a href="tel:0116026194644">(602) 619-4644</a>
+            
+            </div>
+        </div>
             <br>
 
             </main>
