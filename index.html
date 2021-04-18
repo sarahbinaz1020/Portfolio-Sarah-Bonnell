@@ -1,74 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Sarah Bonnell</title>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css"
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css" </head>
 
-    
-
-</head>
 <body>
     <section class="Chase">
-        <img src="./images/Run with Chase.jpg" alt="Selfie with my dog"/>
+        <img src="./images/Run with Chase.jpg" alt="Selfie with my dog" />
 
         <!--This is the header of the page-->
-         <header >
+        <header>
             <h1 class="name">Sarah Bonnell</h1>
         </header>
 
-         <!--This is the nav bar-->
-            <nav class="Juniper">
+        <!--This is the nav bar-->
+        <nav class="Juniper">
             <a href="#About-Me">About Me</a>
             <a href="#Portfolio">Portfolio</a>
             <a href="#Contact">Contact</a>
-            </nav> 
+        </nav>
     </section>
 
     <!--This is the main content of the page-->
     <section>
         <main class="card">
-            <img class="Divider" src="images/sam-moqadam-s8wknXs_O7U-unsplash.jpg" alt="border photo"/>
+            <img class="Divider" src="images/sam-moqadam-s8wknXs_O7U-unsplash.jpg" alt="border photo" />
 
             <div id="main-content">
-                <div class="card1">
-                    <h2 id="About-Me" style="flex-grow: 1">About Me</h2>
-                    <p style="flex-grow: 8">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, voluptatem! Inventore architecto, perferendis illum impedit animi dolorem voluptatibus, voluptatum ipsum qui harum aspernatur excepturi ea perspiciatis nisi est error accusantium?
-                    </p>
-                </div>
+
+                <h2 id="About-Me" style="flex-grow: 1">About Me</h2>
+                <p style="flex-grow: 8">Current full-time student pursuing Certification in Full Stack Web Development
+                    with University of Arizona/Trilogy. Skills: HTML, css, JavaScript, Node.js, Express, Handlebars,
+                    MySql, Sequelize, MVC. Basic knowledge of web and server-side APIs.
+                </p>
+            </div>
             </div>
             <br>
             <!--This is the Portfolio section-->
             <div class="card2">
-                    <h2 id="Portfolio">Portfolio</h2>
-                    <div class="Work-Images"> 
-                        <a href="https://sarahbinaz1020.github.io/Work-Day-Scheduler/index.html">
-                        <img id="Photo1" src="images/work-day-planner-img.png" target="_blank" alt="Photo placeholder 1" width="500" height="300"/>
-                        </a>
-                        <a href="https://sarahbinaz1020.github.io/Password-Generator/index.html">
-                            <img id="Photo2" src="images/password-generator-img.png" alt="Photo placeholder 2" width="200" height="150"/>
-                        </a>
-
-                        <img id="Photo3"src="https://placekitten.com/200/287" alt="Photo placeholder 3" />
+                <h2 id="Portfolio">Portfolio</h2>
+                <div class="Work-Images">
+                    <div class="card1">
+                        <div class="columns">
+                            <div class="column">
+                                First column<a href="https://bathroom-buddy-v1.herokuapp.com/">
+                                    <img id="Photo1" src="images/work-day-planner-img.png" target="_blank"
+                                        alt="Photo placeholder 1" width="500" height="300" />
+                                </a>
+                            </div>
+                            <div class="column">
+                                Second column<a href="https://sarahbinaz1020.github.io/Password-Generator/index.html">
+                                    <img id="Photo2" src="images/password-generator-img.png" alt="Photo placeholder 2"
+                                        width="200" height="150" />
+                                </a>
+                            </div>
+                            <div class="column">
+                                Third column<img id="Photo3" src="https://placekitten.com/200/287"
+                                    alt="Photo placeholder 3" />
+                            </div>
+                        </div>
                     </div>
+                </div>
+                <br>
+
+                <!--This is the Contact Me section-->
+                <div class="card3">
+                    <h2 id="Contact">Contact Me</h2>
+                    <a href="mailto:sarahbinaz1020@gmail.com"><strong>Email</strong></a>
+                    <br>
+                    <a href="https://github.com/sarahbinaz1020"><strong>Github </strong></a>
+                    <br>
+                    <a href="tel:0116026194644"><strong>Mobile</strong></a>
+                    <br>
+                    <a href="https://www.linkedin.com/in/sarah-bonnell-1965555a/"><strong>LinkedIn</strong></a>
+                </div>
             </div>
             <br>
 
-            <!--This is the Contact Me section-->
-            <div class="card3">
-                <h2 id="Contact">Contact Me</h2>
-                <p <em>Email: </em><a href="mailto:sarahbinaz1020@gmail.com">sarahbinaz1020@gmail.com</a></p>
-            <br>
-                <p <em>Mobile: </em><a href="tel:0116026194644">(602) 619-4644</a>
-            
-            </div>
-        </div>
-            <br>
-
-            </main>
+        </main>
     </section>
 </body>
 
@@ -80,4 +96,5 @@
 
 
 </footer>
+
 </html>
