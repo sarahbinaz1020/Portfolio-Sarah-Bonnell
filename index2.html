@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio - Sarah Bonnell</title>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
+  rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+  <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/style2.css" </head>
-
+  
 
 <body>
-  <nav class="navbar is-success" role="navigation" aria-label="main navigation">
+  <nav class="navbar " role="navigation" aria-label="main navigation">
     <div id="navbarBasicExample" class="navbar-menu is-active">
       <div class="navbar-brand">
 
@@ -38,34 +39,32 @@
       </div>
     </div>
   </nav>
-  <section class="hero is-info">
-    <div class="hero-body columns is-one-third ml-4">
-      <div class="columns is-one-quarter">
-        <div class="column"> 
-          <figure class=" image is-128x128">
-            <img class="is-rounded" src="images/Run with Chase.jpg">
+  <section class="hero is-small is-info">
+    <div class="hero-body columns ml-4 mt-3 is-vcentered">
+      <div class="columns">
+        <div class="column">
+          <figure class="">
+            <img class="image is-rounded is-128x128" id="chase-img" src="images/Run with Chase.jpg">
           </figure>
         </div>
       </div>
-      <div class="columnsis-two-thirds">
-        <div class="column ml-6 ">
-          <p class="title ">
-            Sarah Bonnell
-          </p>
-          <p class="subtitle">
-            Professional Portfolio
-          </p>
-
-        </div>
-
+      <div class="column">
+        <p class="title" id="name">
+          Sarah Bonnell
+        </p>
+        <p class="subtitle" id="name-subtitle">
+          Professional Portfolio
+        </p>
       </div>
     </div>
+    <img class="Divider" src="images/sam-moqadam-s8wknXs_O7U-unsplash.jpg" alt="border photo" />
   </section>
 
 
   <section class="section bg-img">
     <!-- About Me section of body -->
-    <div class="container mb-5">
+    <div class="container mb-5" id="about-section">
+      
       <div class="columns">
         <div class="column is-one-quarter">
           <h1 class="title is-link is-uppercase" id="about-me">
@@ -75,10 +74,10 @@
             <!-- subtitle? -->
           </p>
         </div>
-        <div class="column is-three-quarters has-text-left">
-          <p>Current full-time student pursuing Certification in Full Stack Web Development
+        <div class="column is-three-quarters has-text-left mb-5">
+          <p class="is-size-5">Current full-time student pursuing Certification in Full Stack Web Development
             with University of Arizona/Trilogy. </p>
-          <p>Skills:</p>
+          <p class="is-size-5">Skills:</p>
           <ul>
             <li>• HTML</li>
             <li>• css</li>
@@ -91,43 +90,52 @@
             <li>• MongoDB</li>
             <li>• Basic knowledge of MVC, web and server-side APIs</li>
           </ul>
+          <p class="is-size-6 is-italic mt-3">Click here to view my resume </p>
         </div>
       </div>
     </div>
     <!-- Portfolio section of body -->
-    <div class="container ">
-      <div class="columns is-vcentered mb-5">
-        <div class="column">
+    <div class="container mb-5" >
+      <div class="columns is-vcentered mb-5" id="portfolio-section">
+        <div class="column ">
           <h1 class="title is-link is-uppercase" id="portfolio">
             Portfolio
           </h1>
-          <p class="subtitle is-size-6">
+          <p class="subtitle is-size-6 is-lowercase">
             A small sample of my projects that I have been working on for my course
           </p>
         </div>
         <div class="column">
           <div class="has-text-centered mb-2 is-size-5 has-text-weight-semibold">
-            <!-- <p>Bathroom Buddy</p> -->
+            <p id="portfolio-prj">Bathroom Buddy</p>
+            <a href="https://bathroom-buddy-v1.herokuapp.com/">Deployed Link</a>
+            <br>
+            <a href="https://github.com/bhfreeman/restroom-tracker">Github Link</a>
           </div>
-          <figure class="image is-3by2">
-
+          <figure class="image is-3by2" id="bathroom-buddy-img">
             <a href="https://bathroom-buddy-v1.herokuapp.com/"><img src="images/bathroom-buddy.png"></a>
           </figure>
         </div>
         <div class="column">
           <div class="has-text-centered mb-2 is-size-5 has-text-weight-semibold">
-            <!-- <p>Work Day Scheduler</p> -->
+            <p id="portfolio-prj">Work Day Scheduler</p>
+            <!-- <a href="https://note-taker-sb.herokuapp.com/">Deployed Link</a> -->
+            <br>
+            <a href="https://github.com/sarahbinaz1020/Work-Day-Scheduler">Github Link</a>
           </div>
-          <figure class="image is-3by2">
+          <figure class="image is-3by2" id="work-day-img">
             <a href="https://sarahbinaz1020.github.io/Work-Day-Scheduler/"><img
                 src="images/work-day-planner-img.png"></a>
           </figure>
         </div>
         <div class="column">
           <div class="has-text-centered mb-2 is-size-5 has-text-weight-semibold">
-            <!-- <p>Note Taker</p> -->
+            <p id="portfolio-prj">Note Taker</p>
+            <a href="https://note-taker-sb.herokuapp.com/">Deployed Link</a>
+            <br>
+            <a href="https://github.com/sarahbinaz1020/note-taker">Github Link</a>
           </div>
-          <figure class="image is-2by1">
+          <figure class="image is-2by1" id="not-taker-img">
             <a href="https://note-taker-sb.herokuapp.com/"><img src="images/note-taker.png"></a>
           </figure>
         </div>
@@ -135,17 +143,17 @@
     </div>
     <!-- Contact Me section -->
     <div class="container ">
-      <div class="columns">
+      <div class="columns mt-5">
         <div class="column">
           <h1 class="title is-uppercase is-link" id="contact">
             Contact
           </h1>
-          <p class="subtitle is-size-6">
+          <p class="subtitle is-size-6 is-lowercase">
             feel free to reach out!
           </p>
         </div>
         <div class="column">
-          <a href="mailto:sarahbinaz1020@gmail.com"><strong>Email</strong></a>
+            <a href="mailto:sarahbinaz1020@gmail.com"><strong>Email</strong></a>
           <br>
           <a href="tel:0116026194644"><strong>Mobile</strong></a>
         </div>
